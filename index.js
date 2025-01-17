@@ -36,3 +36,25 @@ document.getElementById("myParagraph").addEventListener("mouseover", function() 
 document.getElementById("myButton").addEventListener("click", function() {
     document.getElementById("myButton").style.backgroundColor = "crimson";
 });
+
+
+
+let x; //Variable declaration
+console.log(x); //Undefined
+x=2;
+console.log(x); 
+const y = 10; //Constant initialization
+let z = 3;
+
+x = "Hello World!" //String
+console.log(x);
+z = true //Boolean
+console.log(z);
+
+let studentName = "John"
+console.log(studentName);
+window.alert(` Hello your name is ${studentName}`) //Template literal
+
+let online = false;
+console.log(online);
+console.log(`Online Status: ${online}`)
